@@ -62,4 +62,8 @@ public class Frac {
 
         System.out.println("Phân số sau khi rút gọn : "+numerator/a+"/"+denominator/a);
     }
+
+    public String toString() {
+        return numerator + "/" + denominator;
+    }
 }

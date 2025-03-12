@@ -30,6 +30,6 @@ public class Point {
     }
 
     public void displayData() {
-        System.out.printf("x: %.2f, y: %.2f\n", x, y);
+        System.out.printf("x: %.2f, y: %.2f\n", this.x, this.y);
     }
 }

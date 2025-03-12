@@ -30,7 +30,7 @@ public class Vector {
         System.out.printf("Độ dài giữa 2 vector : %.2f\n", this.calculateMagnitude());
     }
 
-    @Override
+
     public String toString() {
         return "(" + x + ", " + y + ")";
     }
